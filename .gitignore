@@ -1,4 +1,5 @@
 config.env
+rclone.conf
 *.pyc
 data*
 .vscode
