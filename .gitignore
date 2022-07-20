@@ -1,4 +1,3 @@
-rclone.conf
 config.env
 *.pyc
 data*
