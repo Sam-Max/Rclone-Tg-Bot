@@ -5,9 +5,6 @@ attrdict
 beautifulsoup4
 feedparser
 flask
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
 gunicorn
 lk21
 lxml
@@ -15,7 +12,6 @@ pillow
 psycopg2-binary
 pybase64
 python-magic
-python-telegram-bot
 telegraph
 tenacity
 tgCrypto
@@ -24,7 +20,6 @@ cryptg==0.2.post2
 psutil==5.8.0
 aria2p
 bencoding
-lk21
 cfscrape
 Telethon
 TgCrypto==1.2.3
