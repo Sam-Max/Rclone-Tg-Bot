@@ -1,22 +1,7 @@
-# you know these
-venv
-__pycache__
-
-# Telethon sessions
-*.session
-*.session-journal
-
-# tests
-test*.*
-splfil/
-
-# runtime files
-Downloads/
-userdata/
-botlog.txt
-sa_accounts/
-sa_files*
 rclone.conf
 config.env
-app.json
-Procfile
+*.pyc
+data*
+.vscode
+.idea
+log.txt
