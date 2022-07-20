@@ -1,12 +1,7 @@
-#**************************************************
-# Based on:
-# Repository:  https://github.com/anasty17/mirror-leech-telegram-bot/
-# Source: https://github.com/anasty17/mirror-leech-telegram-bot/blob/master/update.py
-#**************************************************/
-
 import logging
 from os import path as ospath, environ
 from subprocess import run as srun
+from dotenv import load_dotenv
 from requests import get as rget
 
 if ospath.exists('botlog.txt'):
@@ -31,18 +26,23 @@ try:
 except TypeError:
     pass
 
+load_dotenv('config.env', override=True)
+
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO')
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH')
+
 try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except TypeError:
-    UPSTREAM_REPO = None
+    UPSTREAM_REPO = 'https://github.com/Sam-Max/testrepo'
+
 try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
 except TypeError:
-    UPSTREAM_BRANCH = 'master'
+    UPSTREAM_BRANCH = 'h-code'
+
 
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
