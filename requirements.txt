@@ -1,3 +1,25 @@
+anytree
+appdirs
+asyncio
+attrdict
+beautifulsoup4
+feedparser
+flask
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+gunicorn
+lk21
+lxml
+pillow
+psycopg2-binary
+pybase64
+python-magic
+python-telegram-bot
+telegraph
+tenacity
+tgCrypto
+yt-dlp
 cryptg==0.2.post2
 psutil==5.8.0
 aria2p
@@ -14,4 +36,5 @@ requests
 megasdkrestclient
 qbittorrent-api
 https://github.com/Ripeey/Conversation-Pyrogram/archive/refs/heads/main.zip
+
 
