@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 SHELL ["/bin/bash", "-c"]
 RUN chmod 777 /usr/src/app
 
-RUN apt -qq update -y update && DEBIAN_FRONTEND="noninteractive" \
+RUN apt -qq update && DEBIAN_FRONTEND="noninteractive" \
     apt -qq install -y python3 python3-pip aria2 qbittorrent-nox p7zip-full \
     p7zip-rar ffmpeg locales curl wget git unzip libmagic-dev libcrypto++-dev libssl-dev \ 
     libc-ares-dev libcurl4-openssl-dev libsqlite3-dev libsodium-dev libfreeimage-dev libpq-dev libffi-dev  \
