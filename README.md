@@ -5,6 +5,7 @@
 2. Don't add variables in heroku Environment, you can only add `CONFIG_FILE_URL`.
 3. Don't deploy using hmanager or github integration.
 5. If you want to edit anything in code, so u should edit [h-code branch](https://github.com/Sam-Max/Rclone-Tg-Bot/tree/h-code). After that u should add fill `UPSTREAM_REPO` of your fork and leave `UPSTREAM_BRANCH` empty since it's by default `h-code`.
+6. Do not abuse of heroku, or your app or account may be banned.
 
 ------
 
