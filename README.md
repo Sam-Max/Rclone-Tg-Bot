@@ -13,7 +13,7 @@
 
 - Clone this repo:
 ```
-git clone https://github.com/Sam-Max/Rclone-Tg-Bot rctg-bot/ && cd rct-gbot
+git clone https://github.com/Sam-Max/Rclone-Tg-Bot rctg-bot/ && cd rctg-bot
 ```
 - Switch to heroku branch
   - **NOTE**: Don't commit changes in master branch. If you have committed your changes in master branch and after that you switched to heroku branch, the new added files(private files) will `NOT` appear in heroku branch.
@@ -59,14 +59,6 @@ heroku apps:destroy YOURAPPNAME
 - To restart dyno
 ```
 heroku restart
-```
-- To turn off dyno
-```
-heroku ps:scale web=0
-```
-- To turn on dyno
-```
-heroku ps:scale web=1
 ```
 - To set heroku variable
 ```
